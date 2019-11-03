@@ -1,0 +1,28 @@
+.btn {
+  width: 115px;
+  height: 115px;
+  border: none;
+  transition: all .2s;
+  cursor: pointer;
+  font-size: 4rem;
+  background: white;
+  color: var(--secondary-color)
+}
+
+.btn:active {
+  transform: scale(.9);
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #6c2e501f;
+}
+
+.large {
+  width: 230px;
+  background: var(--secondary-color);
+  color: white;
+}

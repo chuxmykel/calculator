@@ -1,0 +1,21 @@
+.display {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  background: white;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+  padding: 10px 30px 10px 30px;
+  -webkit-box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.23);
+  -moz-box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.23);
+  box-shadow: 2px 2px 8px 1px rgba(0,0,0,0.23);
+}
+
+.result-screen {
+  font-size: 5rem;
+}
+
+.operation-screen {
+  font-size: 2rem;
+  overflow: auto;
+}
